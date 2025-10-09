@@ -1,0 +1,27 @@
+.catalogo{
+    background-size:recoveri;
+    margin:20px 200px 20px 200px;
+}
+body{
+    background-color: #790e0e;
+}
+h1{
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fundo{
+    background-color: #161416;
+    height: 100vw;
+    width: 80vw;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.button{
+    background-color: #790e0e;
+    color: #ffffff;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
