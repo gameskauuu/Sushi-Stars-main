@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>pratos</title>
+    <style>
+      h2 {
+        font-size: 80%;
+        align-items: center;
+      }
+      label {
+        font-size: 50%;
+        position: absolute;
+        left: 30%;
+      }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #790e0e;
+      }
+      div {
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 75px;
+        border-radius: 20px;
+        color: white;
+        font-size: 30px;
+      }
+      input {
+        padding: 15px;
+        border: none;
+        outline: none;
+        font-size: 15px;
+      }
+      button {
+        background-color: #c0c0c0;
+        border: none;
+        padding: 15px;
+        border-radius: 10px;
+        width: 225px;
+      }
+      button:hover {
+        background-color: #a1a1a1;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <div>
+        <h2>Cadastro de Pedido</h2>
+        <label>Nome do prato:</label>
+        <br />
+        <input type="text" name="prato" placeholder="Digite o nome do prato" />
+        <br /><br />
+
+        <label>Descrição:</label>
+        <br />
+        <input
+          type="text"
+          name="descricao"
+          placeholder="Digite a descrição do prato"
+        />
+        <br /><br />
+
+        <label>Data do pedido:</label>
+        <br />
+        <input style="width: 85%" type="date" name="data_pedido" />
+        <br /><br />
+
+        <label>Total (R$):</label>
+        <br />
+        <input
+          type="number"
+          name="total"
+          step="0.01"
+          placeholder="Valor total"
+        />
+        <br /><br />
+
+        <label>Status do pedido:</label>
+        <br />
+        <input
+          type="text"
+          name="status"
+          placeholder="Ex: em preparo"
+        /><br /><br />
+
+        <button type="submit">Cadastrar</button>
+      </div>
+    </form>
+  </body>
+</html>

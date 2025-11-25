@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const emailInput = document.getElementById('email');
         const emailError = document.getElementById('emailError');
         const email = emailInput.value;
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@\.]+$/;
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
         const senhaInput = document.getElementById('senha');
         const senhaError = document.getElementById('senhaError');
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // validação do e-mail
         if (!emailRegex.test(email)) {
-            emailError.textContent = 'E-mail inválido';
+            alert('email invalido');
             emailInput.focus();
             valido = false;
         } else {
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // validação da senha
         if (senha.length < 6) {
-            senhaError.textContent = 'Senha deve ter pelo menos 6 caracteres';
+            alert('a senha deve ter pelo menos 6 caracteres');
             if (valido) senhaInput.focus();
             valido = false;
         } else {

@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+ <meta charset="UTF-8"/>
+ <title>funcionario</title>
+ <style>
+      h2 {
+        font-size: 95%;
+        text-align: center;
+      }
+      label{
+        font-size: 50%;
+        position: absolute;
+        padding: 12px;
+      }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #790e0e;
+      }
+      div {
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 75px;
+        border-radius: 20px;
+        color: white;
+        font-size: 30px;
+      }
+      input {
+        padding: 15px;
+        border: none;
+        outline: none;
+        font-size: 15px;
+      }
+      button {
+        background-color: #c0c0c0;
+        border: none;
+        padding: 15px;
+        border-radius: 10px;
+        width: 225px;
+      }
+      button:hover {
+        background-color: #a1a1a1;
+        cursor: pointer;
+      }
+ </style>
+</head>
+<body>
+  <form>
+    <div>  
+     <h2>funcionario</h2>  
+     <label>identificaçao do funcionario:</label>
+     <br>
+     <input type="text"name="funcionario" id="funcionario" class="campo-texto" placeholder="Digite o nome do funcionario">
+     <br/> <br/>
+     <label>identificação do cargo:</label>
+     <br>
+     <input type="text"name="cargo"id="cargo"placeholder="informe o cargo">
+     <br/> <br/>
+     <label>identificação do salario:</label>
+     <br>
+     <input type="text"name="salario"id="salario"placeholder="informe o salario">
+     <br/> <br/>
+     <label style="right: 15%;">identificação da data da admissao:</label>
+     <br>
+     <input type="text"name="admissao"id="admissao"placeholder="informe a data da admissao">
+     <br/> <br/>
+     <button type="button">cadastrar pedido</button>
+    </div>
+   </form>
+</body>
+</html

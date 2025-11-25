@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+ <meta charset="UTF-8"/>
+ <title>cliente</title>
+ <style>
+      h2 {
+        font-size: 70%;
+        text-align: center;
+      }
+      label{
+        font-size: 50%;
+        position: absolute;
+        left: 30%;
+      }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #790e0e;
+      }
+      div {
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 75px;
+        border-radius: 20px;
+        color: white;
+        font-size: 30px;
+      }
+      input {
+        padding: 15px;
+        border: none;
+        outline: none;
+        font-size: 15px;
+      }
+      button {
+        background-color: #c0c0c0;
+        border: none;
+        padding: 15px;
+        border-radius: 10px;
+        width: 225px;
+      }
+      button:hover {
+        background-color: #a1a1a1;
+        cursor: pointer;
+      }
+    </style>
+</head>
+<body>
+  <form>
+    <div>
+     <h2>identificaçao do cliente</h2>
+     <label>Identificação do cliente:</label>
+     <br>
+     <input type="text"name="cliente" id="cliente" class="campo-texto" placeholder="Digite o nome do cliente">
+     <br/> <br/>
+     <label>Telefone do cliente:</label>
+     <br>
+     <input type="text"name="telefone_cliente" id="telefone_cliente" placeholder="Digite o seu telefone">
+     <br/> <br/>
+     <label>Email do cliente:</label>
+     <br>
+     <input type="text"name=""id="email_cliente"placeholder="informe o seu email">
+     <br/> <br/>
+     <label>Endereço do cliente:</label>
+     <br>
+     <input type="text"name="endereco_cliente"id="endereco_cliente"placeholder="informe o seu endereco">
+     <br/> <br/>
+     <button type="button">cadastrar pedido</button>
+   </form>
+   </div>
+</body>
+</html

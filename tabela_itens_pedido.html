@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+ <meta charset="UTF-8"/>
+ <title>itens do pedido</title>
+ <style>
+    h2 {
+        font-size: 95%;
+      }
+  label{
+        font-size: 50%;
+        position: absolute;
+        left: 30%;
+      }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #790e0e;
+      }
+      div {
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 75px;
+        border-radius: 20px;
+        color: white;
+        font-size: 30px;
+      }
+      input {
+        padding: 15px;
+        border: none;
+        outline: none;
+        font-size: 15px;
+      }
+      button {
+        background-color: #c0c0c0;
+        border: none;
+        padding: 15px;
+        border-radius: 10px;
+        width: 225px;
+      }
+      button:hover {
+        background-color: #a1a1a1;
+        cursor: pointer;
+      }
+ </style>
+</head>
+<body>
+  <form>
+    <div>
+     <h2>itens do pedido</h2>
+     <label>Identificação do pedido:</label>
+     <br>
+     <input type="text"name="pedido" id="pedido" class="campo-texto" placeholder="Digite o id do pedido">
+     <br/> <br/>
+     <label>Identificação do prato:</label>
+     <br>
+     <input type="text"name="prato" id="prato" placeholder="Digite o id do prato">
+     <br/> <br/>
+     <label>idntificação da quantidade:</label>
+     <br>
+     <input type="text"name="quantidade"id="quantidade"placeholder="informe a quantidade">
+     <br/> <br/>
+     <label>identificação do subtotal:</label>
+     <br>
+     <input type="text"name="subtotal"id="subtotal"placeholder="informe o subtotal">
+     <br/> <br/>
+     <button type="button">cadastrar pedido</button>
+    </div>
+   </form>
+</body>
+</html>
