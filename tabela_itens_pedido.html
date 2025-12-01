@@ -43,12 +43,32 @@
         background-color: #a1a1a1;
         cursor: pointer;
       }
+      a:hover {
+        background-color: rgb(26, 26, 26);
+      }
+      a {
+        background-color: #000000;
+        color: #ffffff;
+        border-radius: 10px;
+        height: 35px;
+        width: 150px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        border: 5px solid #3f3f3f;
+        text-decoration: none;
+        margin-left: 220px;
+        text-align: center;
+        padding: 15px;
+        border-width: 3px;
+        display: flex;
+      }
  </style>
 </head>
 <body>
+  <a href="main.html">Voltar a página principal</a>
   <form>
     <div>
-     <h2>itens do pedido</h2>
+     <h2>Itens do pedido</h2>
      <label>Identificação do pedido:</label>
      <br>
      <input type="text"name="pedido" id="pedido" class="campo-texto" placeholder="Digite o id do pedido">
@@ -57,16 +77,21 @@
      <br>
      <input type="text"name="prato" id="prato" placeholder="Digite o id do prato">
      <br/> <br/>
-     <label>idntificação da quantidade:</label>
+     <label>Idntificação da quantidade:</label>
      <br>
      <input type="text"name="quantidade"id="quantidade"placeholder="informe a quantidade">
      <br/> <br/>
-     <label>identificação do subtotal:</label>
+     <label>Identificação do subtotal:</label>
      <br>
      <input type="text"name="subtotal"id="subtotal"placeholder="informe o subtotal">
      <br/> <br/>
-     <button type="button">cadastrar pedido</button>
-    </div>
+     <button type="button">Cadastrar pedido</button>
+    </form>
+   <br><br>
    </form>
+   <form action="tabela_pratos.html">
+   <button type="submit">continuar</button>
+   </form>
+  </div>
 </body>
 </html>

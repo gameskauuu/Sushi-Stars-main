@@ -44,30 +44,56 @@
         background-color: #a1a1a1;
         cursor: pointer;
       }
+      a:hover {
+        background-color: rgb(26, 26, 26);
+      }
+      a {
+        background-color: #000000;
+        color: #ffffff;
+        border-radius: 10px;
+        height: 35px;
+        width: 150px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        border: 5px solid #3f3f3f;
+        text-decoration: none;
+        margin-left: 220px;
+        margin-bottom: -200px;
+        text-align: center;
+        padding: 15px;
+        border-width: 3px;
+        display: flex;
+      }
  </style>
 </head>
 <body>
+  <a href="main.html">Voltar a página principal</a>
   <form>
     <div>  
-     <h2>funcionario</h2>  
-     <label>identificaçao do funcionario:</label>
+     <h2>Funcionario</h2>  
+     <label>Identificaçao do funcionario:</label>
      <br>
      <input type="text"name="funcionario" id="funcionario" class="campo-texto" placeholder="Digite o nome do funcionario">
      <br/> <br/>
-     <label>identificação do cargo:</label>
+     <label>Identificação do cargo:</label>
      <br>
      <input type="text"name="cargo"id="cargo"placeholder="informe o cargo">
      <br/> <br/>
-     <label>identificação do salario:</label>
+     <label>Identificação do salario:</label>
      <br>
      <input type="text"name="salario"id="salario"placeholder="informe o salario">
      <br/> <br/>
-     <label style="right: 15%;">identificação da data da admissao:</label>
+     <label style="right: 15%;">Identificação da data da admissao:</label>
      <br>
      <input type="text"name="admissao"id="admissao"placeholder="informe a data da admissao">
      <br/> <br/>
-     <button type="button">cadastrar pedido</button>
-    </div>
+     <button type="button">Cadastrar pedido</button>
+  </form>
+   <br><br>
    </form>
+   <form action="tabela_itens_pedido.html">
+   <button type="submit">continuar</button>
+   </form>
+  </div>
 </body>
 </html

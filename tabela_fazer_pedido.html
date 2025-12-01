@@ -44,12 +44,32 @@
         background-color: #a1a1a1;
         cursor: pointer;
       }
+      a:hover {
+        background-color: rgb(26, 26, 26);
+      }
+      a {
+        background-color: #000000;
+        color: #ffffff;
+        border-radius: 10px;
+        height: 35px;
+        width: 150px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        border: 5px solid #3f3f3f;
+        text-decoration: none;
+        margin-left: 220px;
+        text-align: center;
+        padding: 15px;
+        border-width: 3px;
+        display: flex;
+      }
  </style>
 </head>
 <body>
+  <a href="main.html">Voltar a página principal</a>
   <form>
     <div>
-    <h2>fazer pedido</h2>
+    <h2>Fazer pedido</h2>
      <label>Identificação do cliente:</label>
      <br>
      <input type="text"name="cliente" id="cliente" placeholder="Digite o nome do cliente">
@@ -58,20 +78,25 @@
      <br>
      <input type="text"name="funcionario" id="funcionario" placeholder="Digite o nome do funcionario">
      <br/> <br/>
-     <label>idntificação da data do pedido:</label>
+     <label>Idntificação da data do pedido:</label>
      <br>
      <input type="text"name="data_pedido"id="data_pedido"placeholder="informe a data do pedido">
      <br/> <br/>
-     <label>identificação do total do preço:</label>
+     <label>Identificação do total do preço:</label>
      <br>
      <input type="text"name="total"id="total"placeholder="informe o total do pedido">
      <br/> <br/>
-     <label>identificação do status do pedido:</label>
+     <label>Identificação do status do pedido:</label>
      <br>
      <input type="text"name="status"id="status"placeholder="informe o status do pedido">
      <br/> <br/>
-     <button type="button">cadastrar pedido</button>
-     </div>
+     <button type="button">Cadastrar pedido</button>
+     </form>
+   <br><br>
    </form>
+   <form action="tabela_funcionarios.html">
+   <button type="submit">continuar</button>
+   </form>
+  </div>
 </body>
 </html
